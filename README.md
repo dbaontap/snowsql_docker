@@ -22,8 +22,8 @@ Snowflake Documentation:
 * [Snowflake Documentation](https://docs.snowflake.net/manuals/index.html)
 
 ### List of Changes
-*Added config file for editing/automating logins
-*Included apt-get for unzip
+* Added config file for editing/automating logins
+* Included apt-get for unzip
 
 ### To-Do
-*Add variables for version of snowSQL to initially download before upgrading if necessary
+* Add variables for version of snowSQL to initially download before upgrading if necessary
