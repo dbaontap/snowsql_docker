@@ -7,6 +7,4 @@ CMD="docker run --interactive \
                 --rm \
                 --tty \
                 snowsql:latest"
-echo $CMD
-$cd
-$ls
+                
