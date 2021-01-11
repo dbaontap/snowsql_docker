@@ -1,6 +1,6 @@
 FROM ubuntu:18.04
 
-MAINTAINER Ron Kurr <kurr@kurron.org>
+MAINTAINER Danny Bryant <dbryant@dbaontap.com>
 
 RUN apt-get update && apt-get --assume-yes install  curl
 
@@ -14,7 +14,7 @@ WORKDIR /home/snowflake
 
 ENV LC_ALL=C.UTF-8
 ENV LANG=C.UTF-8
-ENV VERSION 1.1.62
+ENV VERSION 1.2.10
 ENV SNOWSQL_DEST /usr/local/bin
 ENV SNOWSQL_LOGIN_SHELL /home/snowflake/.bashrc
 
