@@ -12,3 +12,4 @@ docker images
 docker push dbaontap/snowsql:latest
 docker push dbaontap/snowsql:${UNIXTIME}
 
+# editable file
