@@ -3,25 +3,16 @@ This project is a simple Docker image that provides access to the
 [SnowSQL (CLI Client)](https://docs.snowflake.net/manuals/user-guide/snowsql.html#snowsql-cli-client).  
 
 
-# Prerequisites
-* a working [Docker](http://docker.io) engine
-* a working [Docker Compose](http://docker.io) installation
-
-# Building
+# Build the Docker file
 Type `./build.sh` to build the image.
 
-# Installation
-Docker will automatically install the newly built image into the cache.
 
 # snowSQL config
 Modify config file with any connection information or setup
 
-# Tips and Tricks
 
 ## Launching The Image
 Use `docker run --rm -it --name=snowsql snowsql bash` to launch the image.  
-
-# Troubleshooting
 
 # License and Credits
 This project is licensed under the
@@ -30,3 +21,8 @@ This project is licensed under the
 * [Snowflake Documentation](https://docs.snowflake.net/manuals/index.html)
 
 # List of Changes
+Added config file for editing/automating logins
+Included apt-get for unzip
+
+# To-Do
+Add variables for version of snowSQL to initially download before upgrading if necessary
