@@ -11,3 +11,4 @@ docker images
 # Usage:  docker push [OPTIONS] NAME[:TAG]
 docker push dbaontap/snowsql:latest
 docker push dbaontap/snowsql:${UNIXTIME}
+
