@@ -27,13 +27,6 @@ accountname = accountname
 username = username
 password = password1234
 
-[connections.BBU_QA_ETL_SC]
-accountname = bbuqa.us-east-1
-username = SRVSFQA
-password = Bimbo123
-dbname=BBU_QA
-
-
 [variables]
 #Loads these variables on startup
 #Can be used in SnowSql as select $example_variable

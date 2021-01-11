@@ -13,10 +13,13 @@ Type `./build.sh` to build the image.
 # Installation
 Docker will automatically install the newly built image into the cache.
 
+# snowSQL config
+Modify config file with any connection information or setup
+
 # Tips and Tricks
 
 ## Launching The Image
-Use `./test.sh` to exercise the image.  
+Use `docker run --rm -it --name=snowsql snowsql bash` to launch the image.  
 
 # Troubleshooting
 

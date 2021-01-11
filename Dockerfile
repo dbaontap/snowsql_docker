@@ -30,12 +30,12 @@ RUN bash snowsql-1.2.10-linux_x86_64.bash
 # Switch to the non-root user
 USER snowflake
 
-ADD config ~/.snowsql/
 
 # Run the SnowSQL client once, allowing it to auto-upgrade to the latest version.
 # See https://docs.snowflake.com/en/user-guide/snowsql-install-config.html#label-understanding-auto-upgrades
 RUN snowsql -v
+ADD config /home/snowflake/.snowsql/
 
 #ENTRYPOINT ["snowsql"]
 
-#CMD ["-v"]
+#CMD ["-c"]
