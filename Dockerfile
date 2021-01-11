@@ -20,7 +20,7 @@ ENV SNOWSQL_LOGIN_SHELL /home/snowflake/.bashrc
 
 # grab the installation script
 RUN curl -O https://sfc-repo.snowflakecomputing.com/snowsql/bootstrap/1.2/linux_x86_64/snowsql-${VERSION}-linux_x86_64.bash
-bootstrap/1.2/linux_x86_64/snowsql-${VERSION}-linux_x86_64.bash
+
 
 # Install the tool
 RUN bash snowsql-${VERSION}-linux_x86_64.bash
